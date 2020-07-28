@@ -78,7 +78,7 @@ function checkCookies(){
 	
 	function sendMessage(){
 		const bot = linebot({...botTokens})
-		bot.push(process.env.LINE_USERID, `SITE: ${process.env.SITENAME} cookies is about to expired`)
+		bot.push(process.env.LINE_USERID, 'SITE: xuexia15 cookies is about to expired')
 	}
 
 	
